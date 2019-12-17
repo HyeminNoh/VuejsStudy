@@ -1,8 +1,10 @@
 <template>
 	<dir id="Header">
     <nav>
-      <router-link to="/About" class="items">About Me</router-link>
-      <router-link to="/" class="items">Home</router-link>
+      <router-link to="/" class="items">👩‍💻🔥</router-link>
+      <router-link to="/Profile" class="items">Profile</router-link>
+      <router-link to="/Skills" class="items">Skills</router-link>
+      <router-link to="/Projects" class="items">Projects</router-link>
     </nav>
   </dir>
 </template>
@@ -16,10 +18,10 @@
      }
      #Header .items{
       margin-top: 1.4em;
-      float: right;
-      margin-left: 15px;
+      float: left;
+      margin-left: 30px;
       outline: none;
-      font-size: 12px;
+      font-size: 25px;
       color: black;
      
       text-decoration: none;
