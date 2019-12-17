@@ -20,13 +20,14 @@
 	}
 </script>
 
-<style >
+<style>
  .text-box {
   position: absolute;
   top: 45%;
-  left: 50%;
+  left: 28%;
   transform: translate(-50%, -50%);
-  text-align: center; }
+  text-align: left; 
+  }
 .heading-primary-main {
   display: block;
   font-size: 50px;
@@ -41,7 +42,7 @@
   font-size: 50px;
   font-weight: 100;
   margin-top: 10px;
-  animation-name: moveInright;
+  animation-name: moveInleft;
   animation-duration: 2s;
   color: black; 
   }
@@ -49,8 +50,9 @@
   display: block;
   font-size: 60px;
   font-family: Arial;
+  font-weight: 100;
   margin-top: 50px;
-  animation-name: fadein;
+  animation-name: moveInleft;
   animation-duration: 2s;
   color: black; 
   }
