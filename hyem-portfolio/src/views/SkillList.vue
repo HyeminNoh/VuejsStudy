@@ -5,9 +5,9 @@
       v-bind:key="index" 
       v-bind:class="['list-item'
       ]">
-        <img v-bind:src="item.imgUrl" alt="language logo">
+        <img v-bind:src="'../'+item.imgUrl" alt="language logo">
         <div class="skill-detail">
-            <p v-for="(star, index) in item.star" v-bind:key="index">{{star}}</p>
+            <p>{{item.title}}<br>{{item.star}}</p>
         </div>
     </li>       
   </ul>
@@ -61,7 +61,10 @@
 .list-item:hover .skill-detail {opacity: 0.8;}
 .skill-detail > p{
   color: white;
-  font-size: 10px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  font-size: 15px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
