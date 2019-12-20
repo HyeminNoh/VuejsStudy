@@ -30,7 +30,14 @@ Vue.js를 공부하고 이후 작은 프로젝트를 통해 직접 활용함으�
   : 헤더와 뷰 부분을 분리해서 추가
     Home, About 페이지 추가 (미완성) 
 
-* 2019-12-16  
-  : About -> Profile로 파일명 수정,
-    Profile 내용 추가
-    Skills, Projects 경로와 파일 생성
+* 2019-12-17  
+  : About -> Profile로 파일명 수정,  
+    Profile 내용 추가  
+    Skills, Projects 경로와 파일 생성  
+
+* 2019-12-18  
+  : Skills에 chart.js활용 그래프 추가  
+
+* 2019-12-20  
+  : Skills에 Image추가,  
+    이미지에 text overlay 기능 추가 (진행중)  
