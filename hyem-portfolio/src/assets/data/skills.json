@@ -1,0 +1,47 @@
+[
+    {
+      "title": "HTML",
+      "star": "★★★★★",
+      "imagesUrl": "static/images/html-logo.png"
+    },
+    {
+      "title": "CSS",
+      "star": "★★★★★",
+      "imagesUrl": "static/images/css-logo.png"
+    },
+    {
+      "title": "Javascript",
+      "star": "★★★★☆",
+      "imagesUrl": "static/images/js-logo.png"
+    },
+    {
+      "title": "Node.js",
+      "star": "★★★☆☆",
+      "imagesUrl": "static/images/node-logo.png"
+    },
+    {
+        "title": "Vue.js",
+        "star": "★★★★☆",
+        "imagesUrl": "static/images/vue-logo.png"
+    },
+    {
+      "title": "Java",
+      "star": "★★★☆☆",
+      "imagesUrl": "static/images/java-logo.png"
+    },
+    {
+        "title": "Python",
+        "star": "★★★★☆",
+        "imagesUrl": "static/images/python-logo.png"
+    },
+    {
+      "title": "MySQL",
+      "star": "★★★☆☆",
+      "imagesUrl": "static/images/mysql-logo.png"
+    },
+    {
+      "title": "버전 관리 시스템",
+      "star": "★★★★☆",
+      "imagesUrl": "static/images/git-logo.png"
+    } 
+  ]
