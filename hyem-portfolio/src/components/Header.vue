@@ -21,7 +21,7 @@
       float: left;
       margin-left: 30px;
       outline: none;
-      font-size: 25px;
+      font-size: 20px;
       color: black;
      
       text-decoration: none;
