@@ -2,7 +2,7 @@
 	<div>
     <div class="profile-content">
       <div class="img-container zoomIn animated">
-        <img class="me" src="../assets/me.jpg" alt="" style="width: 200px;">
+        <img class="me" src="../assets/img/me.jpg" alt="" style="width: 150px;">
       </div>
       <h1><span style="font-weight: bold">노혜민</span>입니다.</h1>
       <h2><span style="color: #ff4d5a;">Hello</span>, World :)</h2>
@@ -14,28 +14,28 @@
     <div class="card-content">
       <b-card no-body class="overflow-hidden" header-tag="header">
         <template v-slot:header>
-          <h3 class="mb-0">Profile</h3>
+          <h3 style="font-size: 20px;" class="mb-0">Profile</h3>
         </template>
         <b-row no-gutters>
           <b-col md="6">
-            <b-card-body title="Name😀">
+            <b-card-body class="card-title" title="Name😀">
               <b-card-text class="info"> 노혜민 (Hyemin Noh)</b-card-text>
             </b-card-body>
           </b-col>
           <b-col md="6">
-            <b-card-body title="Birth🎂">
+            <b-card-body class="card-title" title="Birth🎂">
               <b-card-text class="info"> 1997. 01. 03</b-card-text>
             </b-card-body>
           </b-col>
         </b-row>
         <b-row no-gutters>
           <b-col md="6">
-            <b-card-body title="Hobby💘">
+            <b-card-body class="card-title" title="Hobby💘">
               <b-card-text class="info"> #쿠키런:오븐브레이크<br> #롤<br> #블로그 </b-card-text> 
             </b-card-body>
           </b-col>
           <b-col md="6">
-            <b-card-body title="Languages🗣️">
+            <b-card-body class="card-title" title="Languages🗣️">
               <b-card-text class="info"> - Toeic Speaking: LV.6</b-card-text>
               <b-card-text class="info"> - Toeic: 755</b-card-text>  
             </b-card-body>
@@ -43,7 +43,7 @@
         </b-row>
         <b-row no-gutters>
           <b-col md="6">
-            <b-card-body title="Certification🏅">
+            <b-card-body class="card-title" title="Certification🏅">
               <b-card-text class="info"> - 정보처리기사</b-card-text>
             </b-card-body>
           </b-col>
@@ -57,19 +57,19 @@
 @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 .profile-content{
   position: absolute;
-  top: 45%;
-  left: 20%;
+  top: 43%;
+  left: 23%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 300px;
+  width: 260px;
   margin-top: 5%;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 10px 10px 15px gray;
   }
 .img-container{
-    height: 240px;
-    width: 200px;
+    height: 190px;
+    width: 150px;
     margin:10% auto;
     display:block;
     overflow: hidden;
@@ -79,24 +79,27 @@
    }
 .card-content{
   position: absolute;
-  top: 25%;
-  left: 35%;
-  width: 900px;
+  top: 20%;
+  left: 40%;
+  width: 600px;
+}
+.card-title{
+  font-size: 15px;
 }
 h2{
     font-weight: normal;
-    font-size: 25px;
+    font-size: 20px;
     }
 h1{
     display: inline-block;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 25px;
   }
 .info{
-  font-size: 20px;
+  font-size: 15px;
 }
 .info-subtitle{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   color: #333333;
 }
