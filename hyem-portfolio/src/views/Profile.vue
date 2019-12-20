@@ -2,7 +2,7 @@
 	<div>
     <div class="profile-content">
       <div class="img-container zoomIn animated">
-        <img class="me" src="../../static/images/me.jpg" alt="" style="width: 150px;">
+        <img class="me" src="..\assets\images\me.jpg" alt="" style="width: 150px;">
       </div>
       <h1><span style="font-weight: bold">노혜민</span>입니다.</h1>
       <h2><span style="color: #ff4d5a;">Hello</span>, World :)</h2>
