@@ -23,8 +23,8 @@
 <style>
  .text-box {
   position: absolute;
-  top: 45%;
-  left: 28%;
+  top: 50%;
+  left: 34%;
   transform: translate(-50%, -50%);
   text-align: left; 
   }
