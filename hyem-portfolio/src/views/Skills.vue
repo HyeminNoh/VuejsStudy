@@ -1,16 +1,12 @@
 <template>
     <div>
         <div class="skills-content">
-            <div class="skills-header fadeInDown animated">
-                <i class="fas fa-code" style="font-size: 18px; color: #ff4d5a;"></i>
-                <p style="font-size: 10px; font-family:comfortaa; color: #ff4d5a;">CODING</p> 
-            </div>
-            <div class="chart-container">
-                <canvas id="codingChart" width="330" height="330"></canvas>
-            </div>
-        </div>
-        <div class="skills-detail">
             <skill-list v-bind:skills="skills"></skill-list>
+        </div>
+        <div class="skills-chart">
+            <div class="chart-container">
+                <canvas id="codingChart" width="440" height="440"></canvas>
+            </div>
         </div>
     </div>
 </template>
@@ -85,7 +81,7 @@ mounted(){
 .skills-content{  
   position: absolute;
   top: 55%;
-  left: 27%;
+  left: 28%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-family:comfortaa;
@@ -95,11 +91,11 @@ mounted(){
     margin-left: -40px;
 }
 .chart-container{
-  width: 370px;
+  width: 440px;
   margin:auto;
   font-family:comfortaa;
 }
-.skills-detail{
+.skills-chart{
     position: absolute;
     top: 55%;
     left: 68%;
