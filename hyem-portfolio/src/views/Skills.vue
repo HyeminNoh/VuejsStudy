@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="skills-content">
-            <skill-list v-bind:skills="skills"></skill-list>
+            <skill-list v-bind:skills="skillSet"></skill-list>
         </div>
         <div class="skills-chart">
             <div class="chart-container">
@@ -12,22 +12,26 @@
 </template>
 
 <script>
-import skillSet from "../assets/data/skills.json";
+import db from '../firebase.js';
 import SkillList from "./SkillList.vue";
 import Chart from 'chart.js';
 
+let skillsRef = db.ref('skills')
 Chart.defaults.global.defaultFontColor = 'black';
 Chart.defaults.global.defaultStrokeColor = 'black';
 export default {
 name: 'skills',
-data(){
+data() {
     return {
-        skills: skillSet
-        }
-    },
-    components: {
-        "skill-list": SkillList
-    },
+      skillSet: {},
+    }
+  },
+firebase:{
+    skillSet: skillsRef
+},
+components: {
+    "skill-list": SkillList
+},
 mounted(){
     Chart.defaults.global.defaultFontFamily = "comfortaa";
     //coding chart
