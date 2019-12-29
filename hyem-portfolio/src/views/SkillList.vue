@@ -4,7 +4,7 @@
       v-for="(item, index) in skills" 
       v-bind:key="index" 
       v-bind:class="['list-item']">
-        <img v-bind:src=item.imagesUrl v-bind:alt=item.title>
+        <img v-bind:src=item.imageUrl v-bind:alt=item.title>
         <div class="skill-detail">
             <p>{{item.title}}<br>{{item.star}}</p>
         </div>
