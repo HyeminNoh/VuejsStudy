@@ -1,5 +1,5 @@
 # hyem-portfolio  
-![ScreenShoot](https://github.com/HyeminNoh/VuejsStudy/hyem-portfolio/screenshoot.jpg)  
+![ScreenShoot](https://github.com/HyeminNoh/VuejsStudy/hyem-portfolio/screenshoot.png)  
 
 ##### 바로가기  
 ```    
