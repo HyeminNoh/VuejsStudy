@@ -13,7 +13,11 @@ Vue.js를 공부하고 이후 작은 프로젝트를 통해 직접 활용함으�
 - 프로젝트 이력
 ```
 
-## 3. 진행현황
+## 3. 프로젝트 결과
+![ScreenShoot](./hyem-portfolio/screenshoot.png)  
+- 링크: [https://hyem-portfolio.firebaseapp.com](https://hyem-portfolio.firebaseapp.com)  
+
+## 4. 진행과정
 * 2019-11-06 "Vue.js 코딩 공작소"를 활용해 학습    
   : [MVVM패턴](https://hyem-study.tistory.com/20), [생명주기](https://hyem-study.tistory.com/21), 조건문, 반복문 실습  
 
