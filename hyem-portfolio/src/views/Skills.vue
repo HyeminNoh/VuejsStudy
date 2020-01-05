@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h4 style="position: absolute; top: 18%; left: 12%; color: #ff4d5a;">📚 기술스택</h4>
         <div class="skills-content">
             <skill-list v-bind:skills="skillSet"></skill-list>
         </div>
@@ -84,16 +85,13 @@ mounted(){
  @import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 .skills-content{  
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 28%;
+  margin-top: 1%;
   transform: translate(-50%, -50%);
   text-align: center;
   font-family:comfortaa;
   }
-.skills-header{ 
-    margin-bottom: -20px;
-    margin-left: -40px;
-}
 .chart-container{
   width: 440px;
   margin:auto;
