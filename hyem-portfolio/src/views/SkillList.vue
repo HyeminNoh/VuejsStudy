@@ -4,9 +4,9 @@
       v-for="(item, index) in skills" 
       v-bind:key="index" 
       v-bind:class="['list-item']">
-        <img v-bind:src=item.imageUrl v-bind:alt=item.title>
+        <img v-bind:src=item.imageUrl v-bind:alt=index>
         <div class="skill-detail">
-            <p>{{item.title}}<br>{{item.star}}</p>
+            <p>{{index}}<br>{{item.star}}</p>
         </div>
     </li>       
   </ul>
@@ -28,12 +28,10 @@
   position: relative;  
   background-color: white;
   float: left;
-  margin: 2px;
   color: black;
   border: 1px solid black;
   border-radius: 10px;
   margin: 7px;
-  float: left;
   text-align: center;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
