@@ -1,12 +1,12 @@
-# hyem-portfolio
-![ScreenShoot](./screenshoot.jpg)
+# hyem-portfolio  
+![ScreenShoot](https://github.com/HyeminNoh/VuejsStudy/hyem-portfolio/screenshoot.jpg)  
 
-##### 바로가기
+##### 바로가기  
 ```    
- [https://hyem-portfolio.firebaseapp.com]https://hyem-portfolio.firebaseapp.com
-```
+ [https://hyem-portfolio.firebaseapp.com](https://hyem-portfolio.firebaseapp.com)  
+```   
 
-## Project setup
+## Project setup  
 ```
 npm install
 ```
