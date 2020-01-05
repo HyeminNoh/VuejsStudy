@@ -2,7 +2,7 @@
 ![ScreenShoot](./screenshoot.png)  
 
 ## 바로가기  
-- 링크: [https://hyem-portfolio.firebaseapp.com](https://hyem-portfolio.firebaseapp.com)  
+- [https://hyem-portfolio.firebaseapp.com](https://hyem-portfolio.firebaseapp.com)  
   
 
 ### Project setup  
