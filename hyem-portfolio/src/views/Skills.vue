@@ -43,7 +43,7 @@ mounted(){
             labels: ["Vue.js", "Html", "Css", "Bootstrap" ,["JavaScript", "      ES6"], "Node.js","Express.js","Php","Sql","APIs","Git", "C", "Java", "Python", "Linux"],
             datasets: [{
                 label: '# of Votes',
-                data: [4, 5, 4.5, 4, 4, 4, 3.5, 3, 4.5, 3.5, 4.5, 5, 4, 4.5, 3.5],
+                data: [4, 5, 4.5, 4, 4, 4, 3.5, 3, 4.5, 3.5, 4.5, 5, 5, 4.5, 3.5],
                 backgroundColor: [
                 'rgba(253,121,131,0.3)',
                 ],
